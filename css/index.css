@@ -1,0 +1,204 @@
+.hero{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) -13.19%, rgba(0, 0, 0, 0.85) 94.01%),
+        url(../assents/images/image.png);
+    background-size: cover;
+    background-position-x:53%;
+    background-repeat: no-repeat;
+    max-width: 1600px;
+    margin: auto;
+}
+nav li{
+    transition: 0.3s ease-in-out;
+    border-bottom: 1px solid white;
+}
+nav li:hover{
+    color: blue;
+    border-bottom: 1px solid blue;
+}
+.directions .card{
+    border-right:1px solid #282b2231;
+    border-left: 1px solid #282b2231;
+    box-sizing: border-box;
+    transition: 0.3s ease-in-out;
+}
+.directions .card:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.care .box img{
+    transition: 0.3s ease-in-out;
+}
+.care .box:hover img{
+    transform: scale(1.2);
+}
+.robota .card{
+    transition: 0.3s ease-in-out;
+    padding-bottom: 10px;
+}
+.robota .card:hover{
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+.w-img{
+    overflow: hidden;
+}
+.work .card img{
+    transition: 0.3s ease-in-out;
+}
+.work .card:hover img{
+    transform: scale(1.1);
+}
+.work .card{
+    transition: 0.3s ease-in-out;
+}
+.work .card:hover{
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+.project .card2{
+    position: relative;
+}
+.project .card2::after{
+    position: absolute;
+    content: url(../assents/icons/oval.svg);
+    width: 18px;
+    height: 18px;
+    top: 33px;
+    /* left:30px; */
+}
+.project .card1{
+    position: relative;
+}
+.project .card1::after{
+    position: absolute;
+    content: url(../assents/icons/oval.svg);
+    width: 18px;
+    height: 18px;
+    top: 33px;
+    left: 0;
+}
+.partners img{
+    transition: 0.3s ease-in-out;
+}
+.partners img:hover{
+    transform: scale(1.1);
+}
+footer img{
+    transition: 0.3s ease-in-out;
+}
+footer img:hover{
+    transform: scale(1.1);
+}
+.advantages .flex{
+    transition: 0.3s ease-in-out;
+}
+
+.advantages .flex:hover .center{
+    display: block;
+    color: #AE7B3C;
+    content: url(../assents/images/advantage-img.png);
+    width: 200px;
+    height: 200px;
+    margin-left: 100px;
+    z-index: 1;
+    position: absolute;
+    margin-top: -40px;
+}
+.advantages .flex:hover{
+    color: #AE7B3C;
+}
+
+.img{
+    background-image: url(../assents/images/discuss-img.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.img2{
+    background-image: url(../assents/images/food-bg.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position-x:60% ;
+}
+.work .w-img{
+    position: relative;
+}
+.work .w-img::after{
+    content: url(../assents/icons/work-icon1.svg);
+    position: absolute;
+    top: 40%;
+}
+.work .w-img::before{
+    content: url(../assents/icons/work-icon2.svg);
+    position: absolute;
+    right: 0;
+    top: 40%;
+}
+.ringo .wrapper{
+    position: relative;
+}
+.ringo .wrapper::after{
+    content: url(../assents/images/ringo-img3.png);
+    position: absolute;
+    top: 150px;
+}
+input{
+    outline: none;
+    color: gray;
+}
+.btn{
+    transition: 0.3s ease-in-out;
+    border: 1px solid #AE7B3C;
+}
+.btn:hover{
+    background-color: whitesmoke;
+    color: #AE7B3C;
+    border: 1px solid #AE7B3C;
+}
+.ringo .wrapper::before{
+    content: url(../assents/images/ringo-img2.png);
+    position: absolute;
+    top: 150px;
+    right: 0;
+}
+footer li{
+    transition: 0.3s ease-in-out;
+}
+footer li:hover{
+    color: blue;
+    cursor: pointer;
+}
+@media(min-width:1240px){
+    .work .w-img::before{
+        display: none;
+    }
+    .work .w-img::after{
+        display: none;
+    }
+}
+@media(min-width:320px){
+    .ringo .wrapper::after{
+        display: none;
+    }
+    .ringo .wrapper::before{
+        display: none;
+    }
+    .advantages .flex:hover .center{
+        display: none;
+    }
+}
+@media(min-width:640px){
+    .ringo .wrapper::after{
+        display: none;
+    }
+    .ringo .wrapper::before{
+        display: none;
+    }
+}
+@media(min-width:1000px){
+    .ringo .wrapper::after{
+        display: block;
+    }
+    .ringo .wrapper::before{
+        display: block;
+    }
+    .advantages .flex:hover .center{
+        display: block;
+    }
+}

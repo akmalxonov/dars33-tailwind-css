@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/index.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="flex justify-between items-center py-[15px]">
+                    <div class="logo">
+                        <img src="./assents/icons/logo.svg" alt="logo">
+                    </div>
+                    <ul class="hidden lt:flex gap-[30px] d:gap-[40px] font-[500] text-[#282B22]">
+                        <li>
+                            <a href="#">Напрямки</a>
+                        </li>
+                        <li>
+                            <a href="#">Про компанію</a>
+                        </li>
+                        <li>
+                            <a href="#">Переваги</a>
+                        </li>
+                        <li>
+                            <a href="#">Етапи роботи</a>
+                        </li>
+                    </ul>
+                    <div class="icons hidden t:flex items-center">
+                        <a href="#" class="mr-[15px]">
+                            <img src="./assents/icons/nav-icon (2).svg" alt="icon">
+                        </a>
+                        <a href="#" class="mr-[50px] d:mr-[63px]">
+                            <img src="./assents/icons/nav-icon (4).svg" alt="icon">
+                        </a>
+                        <a href="+380 67661 5415" class="flex font-[600] text-[20px]">
+                            <img src="./assents/icons/nav-icon (3).svg" alt="icon">+380 67661 5415
+                        </a>
+                    </div>
+                    <button class="btn lt:hidden"><img src="./assents/icons/nav-icon (1).svg" alt="gamburger"></button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero text-white pt-[70px] pb-[124px] t:pt-[120px] t:pb-[222px]">
+            <div class="container">
+                <div class="wrapper">
+                    <h1
+                        class="uppercase text-[28px] t:text-[56px] t:leading-[67px] font-[700] mb-[28px] text-center leading-[33px]">
+                        виробництво <br> меблів</h1>
+                    <p
+                        class="font-[500] t:text-[18px] t:leading-[27px] leading-[23px] text-center opacity-[80%] mb-[30px]">
+                        Ми виконуємо комплексне <br class="t:hidden"> виготовлення корпусних меблів <br
+                            class="hidden t:block"> для <br class="    t:hidden"> житлових і комерційних приміщень, <br
+                            class=" t:hidden"> забезпечимо Вас <br class="hidden t:block"> якісним меблевим <br
+                            class="t:hidden"> продуктом власного виробництва. </p>
+                    <button class="btn font-[700] block m-auto py-[22px] px-[60px] bg-[#AE7B3C]">Обговорити
+                        проект</button>
+                </div>
+            </div>
+        </section>
+        <section class="directions py-[80px] t:py-[100px] lt:py-[140px]">
+            <div class="container">
+                <h2
+                    class="text-[28px] t:text-[36px] lt:text-[46px] font-[700] leading-[33px] w-[50%] text-center m-auto mb-[50px] lt:mb-[80px] t:mb-[85px]">
+                    Основні напрямки</h2>
+                <div class="grid grid-rows-1 gap-[50px]t:gap-0 t:gap-y-[60px] t:grid-cols-2 lt:grid-cols-3">
+                    <div class="card px-[30px]">
+                        <h5 class="text-[20px] t:text-[24px] font-[600] opacity-[50%] mb-[20px] lt:mb-[60px]">01</h5>
+                        <h3 class="text-[#3D4A39] mb-[15px] lt:mb-[54px] text-[20px] t:text-[21px] font-[600]">Дизайн
+                            інтерєру</h3>
+                        <img class="w-[100%]" src="./assents/images/directions-img (2).png" alt="img">
+                    </div>
+                    <div class="card px-[30px]">
+                        <h5 class="text-[20px] t:text-[24px] font-[600] opacity-[50%] mb-[20px] lt:mb-[60px]">02</h5>
+                        <h3 class="text-[#3D4A39] mb-[15px] lt:mb-[54px] text-[20px] t:text-[21px] font-[600]">
+                            Виробництво меблів</h3>
+                        <img class="w-[100%]" src="./assents/images/directions-img (3).png" alt="img">
+                    </div>
+                    <div class="card px-[30px]">
+                        <h5 class="text-[20px] t:text-[24px] font-[600] opacity-[50%] mb-[20px] lt:mb-[60px]">03</h5>
+                        <h3 class="text-[#3D4A39] mb-[15px] lt:mb-[54px] text-[20px] t:text-[21px] font-[600]">
+                            Комплексне меблювання</h3>
+                        <img class="w-[100%] mt-[30px]" src="./assents/images/directions-img (1).png" alt="img">
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+        <section class="care bg-[#3D4A39] py-[80px] t:py-[100px]  text-white">
+            <div class="container">
+                <h2
+                    class="text-center text-[24px] t:text-[36px] lt:text-[46px] font-[600] w-[75%] m-auto mb-[50px] t:mb-[70px]">
+                    Ми забезпечемо вас </h2>
+                <div class="grid grid-cols-2 t:grid-cols-3 gap-y-[50px] items-end">
+                    <div class="box h-[160px] m-auto">
+                        <img class="m-auto" src="./assents/icons/care-icon (1).svg" alt="icon">
+                        <p class="w-[90%] m-auto text-center text-[18px] t:text-[24px] font-[500] opacity-50">Меблями
+                        </p>
+                    </div>
+                    <div class="box h-[160px] m-auto">
+                        <img class="m-auto" src="./assents/icons/care-icon (2).svg" alt="icon">
+                        <p class="w-[90%] m-auto text-center text-[18px] t:text-[24px] font-[500] opacity-50">
+                            Освітленням</p>
+                    </div>
+                    <div class="box h-[160px] m-auto">
+                        <img class="m-auto" src="./assents/icons/care-icon (3).svg" alt="icon">
+                        <p class="w-[90%] m-auto text-center text-[18px] t:text-[24px] font-[500] opacity-50">Побутовою
+                            технікою</p>
+                    </div>
+                    <div class="box h-[160px] m-auto">
+                        <img class="m-auto" src="./assents/icons/care-icon (4).svg" alt="icon">
+                        <p class="w-[90%] m-auto text-center text-[18px] t:text-[24px] font-[500] opacity-50">Дверима
+                        </p>
+                    </div>
+                    <div class="box h-[160px] m-auto">
+                        <img class="m-auto" src="./assents/icons/care-icon (6).svg" alt="icon">
+                        <p class="w-[90%] m-auto text-center text-[18px] t:text-[24px] font-[500] opacity-50">Стіновими
+                            панелями та підлоговим покриттям</p>
+                    </div>
+                    <div class="box h-[160px] m-auto">
+                        <img class="m-auto" src="./assents/icons/care-icon (5).svg" alt="icon">
+                        <p class="w-[90%] m-auto text-center text-[18px] t:text-[24px] font-[500] opacity-50">
+                            Проектуванням</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="project py-[80px] t:py-[100px] lt:py-[140px]">
+            <div class="container">
+                <h2
+                    class="text-[20px] lt:text-[36px] lt:w-[90%] lt:m-auto lt:leading-[47px] lt:mb-[80px] t:text-[28px] font-[600] leading-[26px] text-center mb-[50px] t:mb-[60px]">
+                    Проект Рінго Україна - створений виконувати об`єктні задачі комплексного меблювання житлових та
+                    комерційних приміщень. </h2>
+                <div class="grid grid-cols-1 t:grid-cols-2">
+                    <div class="card1 py-[30px]  border-t-2 border-b-2 t:border-r-2 border-[#282b223a]">
+                        <p
+                            class="lt:text-[18px] lt:leading-[27px] text-[16px] pl-[30px] pr-[30px] font-[500] leading-[26px] opacity-[70%]">
+                            Наш колектив націлений на результат - вчасно реалізувати проект на найвищому рівні.
+                            Ми забезпечуємо спокій замовника та вирішуємо
+                            будь-які задачі</p>
+                    </div>
+                    <div class="card2 py-[30px] t:pl-[30px] t:pl-[30px] border-b-2 t:border-t-2  border-[#282b223a]">
+                        <p
+                            class="lt:text-[18px] lt:leading-[27px] text-[16px] ml-[30px] t:ml-[30px] font-[500] leading-[26px] opacity-[70%]">
+                            Рінго найкращий підрядник прораба, дизайнера, проект-менеджера або персональний помічник
+                            власника бізнесу, квартири чи салону</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="advantages py-[80px] t:py-[100px] lt:py-[140px]">
+            <div class="container">
+                <h2 class="text-[24px] t:text-[36px] lt:text-[46px] font-[600] lt:mb-[80px] mb-[50px] text-center">Наші
+                    переваги</h2>
+                <div class="wrapper border-t-2 border-[#282b223a]">
+                    <div
+                        class="flex t:grid grid-cols-2 gap-[15px] items-start border-b-2 border-[#282b223a] py-[30px] t:py-[40px] lt:py-[50px]">
+                        <div class="left">
+                            <h5 class="text-[20px] t:text-[24px] font-[600] opacity-30">01</h5>
+                        </div>
+                        <div class="center hidden"></div>
+                        <div class="right t:pl-[30px] lt:pl-[40px] t:border-l-2 border-[#282b223a] ">
+                            <h3 class="text-[20px] t:text-[28px] lt:text-[32px] font-[600] mb-[10px]">Мобільність</h3>
+                            <p class="opacity-80 lt:w-[75%]">Проводимо зустрічі на об`єктах в затишних закладах Києва
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="flex t:grid grid-cols-2 gap-[15px] items-start border-b-2 border-[#282b223a] py-[30px] t:py-[40px] lt:py-[50px]">
+                        <div class="left">
+                            <h5 class="text-[20px] t:text-[24px] font-[600] opacity-30">02</h5>
+                        </div>
+                        <div class="center hidden"></div>
+                        <div class="right t:pl-[30px] lt:pl-[40px] t:border-l-2 border-[#282b223a] ">
+                            <h3 class="text-[20px] t:text-[28px] lt:text-[32px] font-[600] mb-[10px]">Надійність</h3>
+                            <p class="opacity-80 lt:w-[75%]">Система нашої роботи зосереджена на якості та термінах
+                                завершення проекту</p>
+                        </div>
+                    </div>
+                    <div
+                        class="flex t:grid grid-cols-2 gap-[15px] items-start border-b-2 border-[#282b223a] py-[30px] t:py-[40px] lt:py-[50px]">
+                        <div class="left">
+                            <h5 class="text-[20px] t:text-[24px] font-[600] opacity-30">03</h5>
+                        </div>
+                        <div class="center hidden"></div>
+                        <div class="right t:pl-[30px] lt:pl-[40px] t:border-l-2 border-[#282b223a] ">
+                            <h3 class="text-[20px] t:text-[28px] lt:text-[32px] font-[600] mb-[10px]">Якість</h3>
+                            <p class="opacity-80 lt:w-[75%]">Виготовляємо виключно з перевірених європейських брендів
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="flex t:grid grid-cols-2 gap-[15px] items-start border-b-2 border-[#282b223a] py-[30px] t:py-[40px] lt:py-[50px]">
+                        <div class="left">
+                            <h5 class="text-[20px] t:text-[24px] font-[600] opacity-30">04</h5>
+                        </div>
+                        <div class="center hidden"></div>
+                        <div class="right t:pl-[30px] lt:pl-[40px] t:border-l-2 border-[#282b223a] ">
+                            <h3 class="text-[20px] t:text-[28px] lt:text-[32px] font-[600] mb-[10px]">Професіоналізм
+                            </h3>
+                            <p class="opacity-80 lt:w-[75%]">Наша команда - це клуб професіоналів, об`єднаних в одній
+                                компанії</p>
+                        </div>
+                    </div>
+                    <div
+                        class="flex t:grid grid-cols-2 gap-[15px] items-start border-b-2 border-[#282b223a] py-[30px] t:py-[40px] lt:py-[50px]">
+                        <div class="left">
+                            <h5 class="text-[20px] t:text-[24px] font-[600] opacity-30">05</h5>
+                        </div>
+                        <div class="center hidden"></div>
+                        <div class="right t:pl-[30px] lt:pl-[40px] t:border-l-2 border-[#282b223a] ">
+                            <h3 class="text-[20px] t:text-[28px] lt:text-[32px] font-[600] mb-[10px]">Вигідність </h3>
+                            <p class="opacity-80 lt:w-[75%]">Ми відмовились від шоу-руму та офісу на користь вартості та
+                                мобільності</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="wrapper t:flex justify-between">
+            <section class="discuss text-white bg-[#3D4A39] t:w-[50%]">
+                <div class="container">
+                    <div class="wrapper bg-[#3D4A39] py-[80px] lt:pr-[100px] d:px-[100px]">
+                        <h2 class="text-[30px] t:text-[36px] lt:text-[46px] lt:leading-[56px] font-[700] leading-[33px] mb-[20px]">Обговоримо <br> ваш проект?</h2>
+                        <p class="text-[16px] font-[500] leading-[23px] mb-[40px]">Заповніть форму і найближчим <br
+                                class="lt:hidden"> часом <br class="hidden lt:block"> ми зв'яжемося з вами!</p>
+                        <form action="" class="w-[100%]">
+                            <input type="text" placeholder="Ім'я"
+                                class="pb-[10px] pt-[25px] bg-inherit border-gray-200 border-b-2 w-[100%] font-[500]">
+                            <input type="number" placeholder="Номер телефону"
+                                class="pb-[10px] pt-[25px] bg-inherit border-gray-200 border-b-2 w-[100%] font-[500]">
+                            <span class="flex gap-[10px] items-center pt-[25px] pb-[40px] text-gray-400">
+                                <i class="fa-solid fa-file-lines"></i>
+                                <h6>Прикріпити проект</h6>
+                            </span>
+                            <button class="btn font-[700] py-[22px] w-[100%] bg-[#AE7B3C] mb-[25px]">Відправити</button>
+                            <span class="flex gap-[10px] mb-[60px]">
+                                <img src="./assents/icons/inputs-icon.svg" alt="icon">
+                                <h6 class="text-[12px] font-[300]">Даю згоду на оброблення персональних даних</h6>
+                            </span>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <section class="img t:w-[50%] h-[360px] t:h-[130vh] lt:h-[135vh]"></section>
+        </section>
+        <section class="robota py-[80px] t:py-[100px] lt:py-[140px]">
+            <div class="container">
+                <h2 class="text-[24px] t:text-[36px] lt:text-[46px] text-center font-[600] mb-[50px] t:mb-[60px] lt:mb-[80px]">Етапи роботи</h2>
+                <div class="grid grid-cols-1 gap-[50px] t:grid-cols-2 d:grid-cols-4 d:gap-[35px] d:w-[100%] t:gap:-[60px] lt:w-[90%] m-auto">
+                    <div class="card">
+                        <img src="./assents/icons/robots-icon (2).svg" alt="">
+                        <h4 class="text-[18px] font-[600] mt-[25px] mb-[15px]">Підписання договору</h4>
+                        <p class="opacity-[80%] font-[500]">Визначаємось з бюджетом, <br> матеріалами та фурнітурою. <br>
+                            Вносимо правки в проект, <br>
+                            підписуємо пакет документів.</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assents/icons/robots-icon (3).svg" alt="">
+                        <h4 class="text-[18px] font-[600] mt-[25px] mb-[15px]">Виготовлення </h4>
+                        <p class="opacity-[80%] font-[500]">Після підписання договору та <br> визначення термінів, команда Рінго <br> приступає до <br>
+                            найцікавішого - виробництва!.</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assents/icons/robots-icon (4).svg" alt="">
+                        <h4 class="text-[18px] font-[600] mt-[25px] mb-[15px]">Встановлення</h4>
+                        <p class="opacity-[80%] font-[500]">По готовності виробництва <br> починаємо монтаж на обєкті. <br> У домовлений час виконуємо <br> доставку та монтаж.</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assents/icons/robots-icon (1).svg" alt="">
+                        <h4 class="text-[18px] font-[600] mt-[25px] mb-[15px]">Новосілля</h4>
+                        <p class="opacity-[80%] font-[500]">По закінченню робимо <br> перевірку та підписуємо акт <br> закінчення робівт.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="work py-[80px] t:py-[100px] lt:py-[140px] bg-white">
+            <div class="container">
+                <h2 class="text-[24px] t:text-[36px] lt:text-[46px] font-[600] text-center mb-[40px] t:mb-[60px] d:mb-[38px]">Зараз в роботі</h2>
+                <div class="grid d:grid-cols-2 gap-[32px]">
+                    <div class="card">
+                        <div class="w-img">
+                            <img class="w-[100%]" src="./assents/images/work-img.png" alt="img">
+                        </div>
+                        <h6 class="text-[20px] t:text-[24px] lt:text-[28px] t:mt-[30px] t:mb-[15px] font-[600] mt-[20px] mb-[10px] d:w-[40%]">Квартира ЖК Медовий</h6>
+                        <p class="text-[18px] font-[500] opacity-[50%] mb-[30px]">3 етап</p>
+                        <img class="d:hidden" src="./assents/icons/work-icon.svg" alt="icon">
+                    </div>
+                    <div class="card hidden d:block">
+                        <div class="w-img">
+                            <img class="w-[100%]" src="./assents/images/work-img.png" alt="img">
+                        </div>
+                        <h6 class="text-[20px] t:text-[24px] lt:text-[28px] t:mt-[30px] t:mb-[15px] font-[600] mt-[20px] mb-[10px]">Квартира ЖК Медовий</h6>
+                        <p class="text-[18px] font-[500] opacity-[50%] mb-[30px]">3 етап</p>
+                        <img class="d:hidden" src="./assents/icons/work-icon.svg" alt="icon">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="ringo bg-[#F3F3F3] ">
+            <div class="container">
+                <div class="wrapper py-[80px] t:py-[100px] lt:py-[140px] t:border-r-2 t:border-l-2 border-[#282b221b] t:rounded-[35%] lt:rounded-[40%]">
+                    <h2 class="text-[24px] t:text-[36px] lt:text-[46px] font-[600] text-center lt:leading-[57px] leading-[32px] mb-[20px]">Рінго роздає <br> подарунки!</h2>
+                <p class="text-center mb-[40px]">При замовленні до нового року, <br class="t:hidden"> отримай <br class="hidden t:block"> цінний подарунок для <br class="t:hidden"> свого комфорту</p>
+                <button class="btn font-[700] py-[22px] w-[100%] t:w-[50%] block m-auto bg-[#AE7B3C] text-white">Хочу подарунок</button>
+                </div>
+            </div>
+        </section>
+        <section class="partners py-[80px] t:py-[100px] lt:py-[140px]">
+            <div class="contaier">
+                <h2 class="text-[24px] t:text-[36px] lt:text-[46px] font-[600] mb-[40px] t:mb-[60px] text-center">Наші партнери</h2>
+                <div class="grid grid-cols-2 lt:grid-cols-4 gap-[10px] w-[80%] m-auto t:gap-[20px] mb-[40px]">
+                    <img class="m-auto" src="./assents/images/partnars-img (1).png" alt="">
+                    <img class="m-auto" src="./assents/images/partnars-img (2).png" alt="">
+                    <img class="hidden m-auto lt:block" src="./assents/images/partnars-img (3).png" alt="">
+                    <img class="hidden m-auto lt:block" src="./assents/images/partnars-img (4).png" alt="">
+                </div>
+                <div class="flex justify-center">
+                    <img src="./assents/icons/work-icon1.svg" alt="icon">
+                    <img src="./assents/icons/work-icon2.svg" alt="icon">
+                </div>
+            </div>
+        </section>
+        <section class="wrapper t:flex justify-between">
+            <section class="food text-white bg-[#3D4A39] t:w-[50%]">
+                <div class="container">
+                    <div class="wrapper bg-[#3D4A39] py-[80px] lt:pr-[100px] d:px-[100px]">
+                        <h2 class="text-[30px] t:text-[36px] lt:text-[46px] lt:leading-[56px] font-[700] leading-[33px] mb-[20px]">Залишилися <br> питання?</h2>
+                        <p class=" text-gray-200 text-[16px] font-[500] leading-[23px] mb-[40px]">Отримай безкоштовну консультацію <br> менеджера та прорахунок проекту<br
+                                class="lt:hidden"> часом <br class="hidden lt:block"> ми зв'яжемося з вами!</p>
+                        <form action="" class="w-[100%]">
+                            <input type="text" placeholder="Ім'я"
+                                class="pb-[10px] pt-[25px] bg-inherit border-gray-400 border-b-2 w-[100%] font-[500]">
+                            <input type="number" placeholder="Номер телефону"
+                                class="pb-[10px] pt-[25px] bg-inherit border-gray-400 border-b-2 w-[100%] font-[500]">
+                            <button class="btn font-[700] py-[22px] w-[100%] mt-[40px] bg-[#AE7B3C] mb-[25px]">Відправити</button>
+                            <span class="flex gap-[10px] mb-[60px]">
+                                <img src="./assents/icons/inputs-icon.svg" alt="icon">
+                                <h6 class="text-[12px] font-[300]">Даю згоду на оброблення персональних даних</h6>
+                            </span>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <section class="img2 t:w-[50%] h-[360px] t:h-[130vh] lt:h-[135vh]"></section>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="grid py-[60px] t:py-[100px] grid-cols-1 t:flex t:flex-wrap t:justify-between gap-[50px] lt:grid lt:grid-cols-3 lt:gap[20px] ">
+                <div class="logo lt:w-[60%]">
+                    <img class="mb-[25px] " src="./assents/icons/logo.svg" alt="icon">
+                    <img src="./assents/icons/footer-icon.svg" alt="icon">
+                </div>
+                <div class="grid grid-cols-2 justify-between t:w-[45%] lt:w-[100%] t:justify-between">
+                    <ul class="text-[15px] font-[500] flex flex-col gap-[20px] t:gap-[30px]">
+                        <li>Основні напрямки</li>
+                        <li>Про компанію</li>
+                        <li>Переваги</li>
+                    </ul>
+                    <ul class="text-[15px] font-[500] flex flex-col gap-[20px] t:gap-[30px]">
+                        <li>Етапи роботи</li>
+                        <li>Зараз в роботі</li>
+                        <li>Стати партнером</li>
+                    </ul>
+                </div>
+                <div class="t:flex justify-between w-[100%] lt:block">
+                    <span class="flex items-center t:w-[40%] lt:w-[100%]  font-[600] text-[20px] lt:mb-[30px] mb-[25px] t:mb-[0px]">
+                        <img src="./assents/icons/nav-icon (3).svg" alt="icon">
+                        <a href="+380 67661 5415">+380 67661 5415</a>
+                    </span>
+                    <button class="btn t:w-[45%] lt:w-[100%] py-[22px] w-[100%] bg-[#AE7B3C] text-[16px] font-[700] text-white">На каву з менеджером!</button>
+                </div>
+            </div>
+            <div class="bottom pt-[50px] t:pt-[40px] pb-[30px] border-t-2 border-b-2 border-gray-200">
+                <h5 class="text-[18px] font-[600] mb-[30px] t:mb-[38px]">Бренди комплектуючих</h5>
+                <div class="flex flex-wrap justify-between lt:gap-[38px] lt:justify-normal">
+                    <img src="./assents/icons/footer-brend (1).svg" alt="brend">
+                    <img src="./assents/icons/footer-brend (2).svg" alt="brend">
+                    <img src="./assents/icons/footer-brend (9).svg" alt="brend">
+                    <img src="./assents/icons/footer-brend (4).svg" alt="brend">
+                    <img src="./assents/icons/footer-brend (5).svg" alt="brend">
+                    <img src="./assents/icons/footer-brend (6).svg" alt="brend">
+                    <img src="./assents/icons/footer-brend (8).svg" alt="brend">
+                    <img src="./assents/icons/footer-brend (7).svg" alt="brend">
+                    <img src="./assents/icons/footer-brend (3).svg" alt="brend">
+                </div>
+            </div>
+            <div class="end py-[20px] t:pb-[40px] flex justify-between">
+                <p class="text-[14px] font-[500] opacity-[50%]">© 2021 Ringo</p>
+                <p class="text-[14px] font-[500] opacity-[50%]">Дизайн сайту</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
